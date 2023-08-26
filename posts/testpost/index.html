@@ -1,0 +1,331 @@
+<!doctype html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<html
+  class="not-ready lg:text-base"
+  style="--bg: #faf8f1"
+  lang="en-us"
+>
+  <head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1, shrink-to-fit=no"
+  />
+
+  
+  <title>Test Post - Dev Nuggets Blog</title>
+
+  
+  <meta name="theme-color" />
+
+  
+  
+  
+  <meta name="description" content="Testing some text This is not what I wanted. jk. Achillis tantique eodem Venias ora excutit uteri qui Xanthique sustulit Lorem markdownum tulit: Iunoni radium ab iactanti diversa inminet Macareus! Pars fecit nigrum aetheriae addit difficilis de Gorgoneas Olympus diversi vix.
+Fulmina imas incerta lecto? Frondibus superum mihi contrahitur ne quae vera socios atque orbem maduere nec que tu.
+Armis ambitae volucri cursus spectata pennas Hippomene Dedit adurat, iam, silvis corpore ex quaerit quamvis sic, qua nimiumque voluit rebus." />
+  <meta name="author" content="Dev Nuggets Blog" />
+  
+
+  
+  
+  
+  
+  
+  
+  <link rel="preload stylesheet" as="style" href="https://devnuggets.dev/main.min.css" />
+
+  
+  <script
+    defer
+    src="https://devnuggets.dev/highlight.min.js"
+    onload="hljs.initHighlightingOnLoad();"
+  ></script>
+  
+
+  
+   
+  <link rel="preload" as="image" href="https://devnuggets.dev/theme.png" />
+
+  
+  
+  
+  
+
+  
+  <link rel="preload" as="image" href="https://devnuggets.dev/github.svg" />
+  
+  
+
+  
+  
+
+  
+  <link rel="icon" href="https://devnuggets.dev/favicon.ico" />
+  <link rel="apple-touch-icon" href="https://devnuggets.dev/apple-touch-icon.png" />
+
+  
+  <meta name="generator" content="Hugo 0.116.1">
+
+  
+  
+
+  
+  
+  
+  
+  
+  <meta itemprop="name" content="Test Post">
+<meta itemprop="description" content="Testing some text This is not what I wanted. jk. Achillis tantique eodem Venias ora excutit uteri qui Xanthique sustulit Lorem markdownum tulit: Iunoni radium ab iactanti diversa inminet Macareus! Pars fecit nigrum aetheriae addit difficilis de Gorgoneas Olympus diversi vix.
+Fulmina imas incerta lecto? Frondibus superum mihi contrahitur ne quae vera socios atque orbem maduere nec que tu.
+Armis ambitae volucri cursus spectata pennas Hippomene Dedit adurat, iam, silvis corpore ex quaerit quamvis sic, qua nimiumque voluit rebus."><meta itemprop="datePublished" content="2023-08-25T22:55:08-06:00" />
+<meta itemprop="dateModified" content="2023-08-25T22:55:08-06:00" />
+<meta itemprop="wordCount" content="296">
+<meta itemprop="keywords" content="" />
+  
+  <meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Test Post"/>
+<meta name="twitter:description" content="Testing some text This is not what I wanted. jk. Achillis tantique eodem Venias ora excutit uteri qui Xanthique sustulit Lorem markdownum tulit: Iunoni radium ab iactanti diversa inminet Macareus! Pars fecit nigrum aetheriae addit difficilis de Gorgoneas Olympus diversi vix.
+Fulmina imas incerta lecto? Frondibus superum mihi contrahitur ne quae vera socios atque orbem maduere nec que tu.
+Armis ambitae volucri cursus spectata pennas Hippomene Dedit adurat, iam, silvis corpore ex quaerit quamvis sic, qua nimiumque voluit rebus."/>
+
+  
+  
+</head>
+
+  <body class="text-black duration-200 ease-out dark:text-white">
+    <header class="mx-auto flex h-[4.5rem] max-w-3xl px-8 lg:justify-center">
+  <div class="relative z-50 mr-auto flex items-center">
+    <a
+      class="-translate-x-[1px] -translate-y-[1px] text-2xl font-semibold"
+      href="https://devnuggets.dev"
+      >Dev Nuggets Blog</a
+    >
+    <div
+      class="btn-dark text-[0] ml-4 h-6 w-6 shrink-0 cursor-pointer [background:url(./theme.png)_left_center/_auto_theme('spacing.6')_no-repeat] [transition:_background-position_0.4s_steps(5)] dark:[background-position:right]"
+      role="button"
+      aria-label="Dark"
+    ></div>
+  </div>
+
+  <div
+    class="btn-menu relative z-50 -mr-8 flex h-[4.5rem] w-[5rem] shrink-0 cursor-pointer flex-col items-center justify-center gap-2.5 lg:hidden"
+    role="button"
+    aria-label="Menu"
+  ></div>
+
+  
+  <script>
+    
+    const htmlClass = document.documentElement.classList;
+    setTimeout(() => {
+      htmlClass.remove('not-ready');
+    }, 10);
+
+    
+    const btnMenu = document.querySelector('.btn-menu');
+    btnMenu.addEventListener('click', () => {
+      htmlClass.toggle('open');
+    });
+
+    
+    const metaTheme = document.querySelector('meta[name="theme-color"]');
+    const lightBg = '#faf8f1'.replace(/"/g, '');
+    const setDark = (isDark) => {
+      metaTheme.setAttribute('content', isDark ? '#000' : lightBg);
+      htmlClass[isDark ? 'add' : 'remove']('dark');
+      localStorage.setItem('dark', isDark);
+    };
+
+    
+    const darkScheme = window.matchMedia('(prefers-color-scheme: dark)');
+    if (htmlClass.contains('dark')) {
+      setDark(true);
+    } else {
+      const darkVal = localStorage.getItem('dark');
+      setDark(darkVal ? darkVal === 'true' : darkScheme.matches);
+    }
+
+    
+    darkScheme.addEventListener('change', (event) => {
+      setDark(event.matches);
+    });
+
+    
+    const btnDark = document.querySelector('.btn-dark');
+    btnDark.addEventListener('click', () => {
+      setDark(localStorage.getItem('dark') !== 'true');
+    });
+  </script>
+
+  <div
+    class="nav-wrapper fixed inset-x-0 top-full z-40 flex h-full select-none flex-col justify-center pb-16 duration-200 dark:bg-black lg:static lg:h-auto lg:flex-row lg:!bg-transparent lg:pb-0 lg:transition-none"
+  >
+    
+    
+
+    
+    <nav
+      class="mt-12 flex justify-center space-x-10 dark:invert lg:ml-12 lg:mt-0 lg:items-center lg:space-x-6"
+    >
+      
+      <a
+        class="h-8 w-8 text-[0] [background:var(--url)_center_center/cover_no-repeat] lg:h-6 lg:w-6"
+        style="--url: url(./github.svg)"
+        href="https://github.com/nicosan001"
+        target="_blank"
+        rel="me"
+      >
+        github
+      </a>
+      
+    </nav>
+    
+  </div>
+</header>
+
+
+    <main
+      class="prose prose-neutral relative mx-auto min-h-[calc(100%-9rem)] max-w-3xl px-8 pb-16 pt-12 dark:prose-invert"
+    >
+      
+
+<article>
+  <header class="mb-16">
+    <h1 class="!my-0 pb-2.5">Test Post</h1>
+
+    
+    <div class="text-sm antialiased opacity-60">
+      
+      <time>Aug 25, 2023</time>
+      
+      
+      
+      
+    </div>
+    
+  </header>
+
+  <section><h1 id="testing-some-text">Testing some text</h1>
+<p>This is not what I wanted. jk.
+
+
+<img src="/images/doggy-dev_hua32520e1f9382834b1e68c028b382887_3137135_300x0_resize_q75_box.jpg" alt="">
+</p>
+<h1 id="achillis-tantique-eodem">Achillis tantique eodem</h1>
+<h2 id="venias-ora-excutit-uteri-qui-xanthique-sustulit">Venias ora excutit uteri qui Xanthique sustulit</h2>
+<p>Lorem markdownum tulit: Iunoni radium ab iactanti diversa inminet Macareus!
+<em>Pars fecit nigrum</em> aetheriae addit difficilis de Gorgoneas Olympus diversi vix.</p>
+<blockquote>
+<p>Fulmina imas incerta lecto? Frondibus superum mihi contrahitur ne quae vera
+socios <em>atque orbem</em> maduere nec que tu.</p>
+</blockquote>
+<h2 id="armis-ambitae-volucri-cursus-spectata-pennas-hippomene">Armis ambitae volucri cursus spectata pennas Hippomene</h2>
+<p>Dedit adurat, iam, silvis corpore ex quaerit quamvis sic, qua <strong>nimiumque voluit
+rebus</strong>. Se cuius nymphae et fidem dum hoc dextris stamen, ut nec. Flores fugit
+o infestaque neque. Comas quos, quod ingrati lina velint ante flavescere ales et
+advertens vestes utinam neque, ab.
+sms_drive(5);
+var socketServer = 93;
+bash_digital_ctp(cdmaHorizontalMarket);
+var sdk = -5;
+real_hertz_raw = fontMbr + 179602;</p>
+<h2 id="celsior-sanguine-prosiluit-pharsalia-habet-tempore-in">Celsior sanguine prosiluit Pharsalia habet tempore in</h2>
+<p>Es Peleus fortia ut Iuppiter tradiderat condiderat semine. Hasta in lacrimasque
+mihi procorum me ipse praesagia nec vivit. Digitos suo motus frui est percusso
+suis, inde, es forma praevius vestigia, illic, et! Refugit lusus, spatium
+iubeoque et laetor causa?</p>
+<blockquote>
+<p>Manus tibi tollere creverat innuba coniunx; nate illa, ait educta quas.
+Inprudens minuitque Achaidas enim quaeque ipsos fulvo quam ex est, ac quod
+cortice tuas quo dolebis. Et unum <a href="http://genitornostro.org/libravit">esse
+fronte</a> illas. <strong>Omnes fabrae</strong> dummodo
+exierat?</p>
+</blockquote>
+<h2 id="praedator-seque">Praedator seque</h2>
+<p>Iuvenca spatiantibus dixit ferunt tegitur tamen quem, sidereis bitumine
+studiisque consultus ego laudes altis, quae fragor mors exhalantes. Occupat iter
+addit mixta bello fulvos omnem dis iunctus vidit quodcunque deriguere tantus.</p>
+<ul>
+<li>Quid pennis nostrum territa Ganymedis misit</li>
+<li>Luget si sed admirantes erant</li>
+<li>Verte solent</li>
+<li>Nutricis Syrtis fuerunt excussa</li>
+<li>Tibi Cipe ferre natus
+Per luctus viret ignemque. Pendenti rigidum. Melaneus est esset, et <em>frondes
+recipit</em>, thalamos. Ille aevi patruo, si pronus, de Pylonque Cumarum
+grandaevumque mihi taurum. Nostri corpus cinerem dubitas sic ora ea solebam
+aestuat scopulis, vocantia.</li>
+</ul>
+</section>
+
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+  
+
+  
+  
+</article>
+
+
+    </main>
+
+    <footer
+  class="opaco mx-auto flex h-[4.5rem] max-w-3xl items-center px-8 text-[0.9em] opacity-60"
+>
+  <div class="mr-auto">
+    &copy; 2023
+    <a class="link" href="https://devnuggets.dev">Dev Nuggets Blog</a>
+  </div>
+  <a class="link mx-6" href="https://gohugo.io/" rel="noopener" target="_blank"
+    >Powered by Hugo️️</a
+  >️
+  <a
+    class="link"
+    href="https://github.com/nanxiaobei/hugo-paper"
+    rel="noopener"
+    target="_blank"
+    >✎ Paper</a
+  >
+</footer>
+
+  </body>
+</html>
