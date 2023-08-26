@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Dev Nuggets Blog</title>
-    <link>https://devnuggets.github.io/</link>
+    <link>https://nicosan001.github.io/devnuggets.github.io/</link>
     <description>Recent content on Dev Nuggets Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 25 Aug 2023 22:55:08 -0600</lastBuildDate><atom:link href="https://devnuggets.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 25 Aug 2023 22:55:08 -0600</lastBuildDate><atom:link href="https://nicosan001.github.io/devnuggets.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>First Post</title>
-      <link>https://devnuggets.github.io/posts/first-post/</link>
+      <link>https://nicosan001.github.io/devnuggets.github.io/posts/first-post/</link>
       <pubDate>Fri, 25 Aug 2023 22:55:08 -0600</pubDate>
       
-      <guid>https://devnuggets.github.io/posts/first-post/</guid>
+      <guid>https://nicosan001.github.io/devnuggets.github.io/posts/first-post/</guid>
       <description>Hey There 👋 This is a test</description>
     </item>
     
