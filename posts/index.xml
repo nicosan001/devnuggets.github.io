@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Dev Nuggets Blog</title>
+    <link>https://devnuggets.github.io/posts/</link>
+    <description>Recent content in Posts on Dev Nuggets Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 25 Aug 2023 22:55:08 -0600</lastBuildDate><atom:link href="https://devnuggets.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>First Post</title>
+      <link>https://devnuggets.github.io/posts/first-post/</link>
+      <pubDate>Fri, 25 Aug 2023 22:55:08 -0600</pubDate>
+      
+      <guid>https://devnuggets.github.io/posts/first-post/</guid>
+      <description>Hey There 👋 </description>
+    </item>
+    
+  </channel>
+</rss>
